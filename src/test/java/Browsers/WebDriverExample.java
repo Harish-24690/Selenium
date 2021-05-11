@@ -20,7 +20,7 @@ public class WebDriverExample {
 	}
 	else if(Browser.equals("Firefox")){
 		WebDriverManager.firefoxdriver().setup();
-		 driver = new FirefoxDriver();
+		 driver = new FirefoxDriver();                   // setup driver
 		driver.manage().window().maximize();
 	}
 	else if(Browser.equals("ie")){
